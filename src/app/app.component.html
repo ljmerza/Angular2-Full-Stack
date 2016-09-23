@@ -5,6 +5,8 @@
       <a class="navbar-brand pull-right" [routerLink]="['/']">
         <img class="angular2icon" src="/assets/favicon.ico"> Angular 2 Full Stack
       </a>
+      <!-- routerLinkActive adds active class if route matches routerLink -->
+      <!-- routerLinkActiveOptions set exact to true to active class is only set when url route exactly matches route -->
       <a [routerLink]="['/']" class="nav-item nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
         <i class="fa fa-home"></i> Home
       </a>
